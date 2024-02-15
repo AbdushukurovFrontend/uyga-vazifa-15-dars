@@ -5,79 +5,96 @@
     margin: 0;
     padding: 0;
   }
-  .container {
-    width: 100vw;
+
+  .container{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    /* flex-direction: row; */
-  }
-  .blue {
-    width: calc(30% - 10px);
-    height: 200px;
     padding: 20px;
-    background-color: blue;
   }
-  .orange {
-    width: 70%;
-    height: 200px;
-    padding: 0;
-    background-color: orange;
-  }
-  .red {
+  .item1{
     width: 100%;
-    height: 400px;
-    padding: 0;
-    background-color: red;
-  }
-  .yellow1 {
-    width: calc(33.3% - 10px);
     height: 300px;
-    padding: 0;
-    background-color: yellow;
+    background: -webkit-linear-gradient(45deg, rgb(197, 236, 183), rgb(47, 178, 0));
+    background: -moz-linear-gradient(45deg, rgb(197, 236, 183), rgb(47, 178, 0));
+    background: linear-gradient(45deg, rgb(145, 239, 111), rgb(47, 178, 0));
   }
-  .yellow2 {
-    width: calc(33.3% - 10px);
-    height: 300px;
-    padding: 0;
-    background-color: yellow;
-  }
-  .yellow3 {
-    width: calc(33.3% - 10px);
-    height: 300px;
-    padding: 0;
-    background-color: yellow;
-  }
-  .pink {
-    background-color: pink;
-    width: 100%;
+
+  .item2{
+    width:calc(33.5% - 10px);
     height: 200px;
-    padding: 0;
   }
-  @media screen and (max-width: 900px) {
-    .pink {
+ .item2-bacground{
   width: 100%;
+  height: 100%;
+  background-color:chartreuse;
+ }
+ .item2-text{
+  padding: 20px;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: italic;
+  width: 80%;
+ }
+
+ .item3-bacground{
+  width: 100%;
+  height: 100%;
+  background-color:chartreuse;
+ }
+ .item3-text{
+  padding: 20px;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: italic;
+  width: 80%;
+ }
+
+
+ .item4-bacground{
+  width: 100%;
+  height: 100%;
+  background-color:chartreuse;
+ }
+ .item4-text{
+  width: 80%;
+  padding: 20px;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: italic;
+ }
+
+
+ 
+  .item3{
+    width:calc(33.5% - 10px);
+    height: 200px;
   }
-      .yellow1{
-          height: 100px;
-        }
-        .yellow2 {
-          height: 100px;
-        }
-        .yellow3 {
-          height: 100px;
-        }
-      
+
+  .item4{
+    width:calc(33.5% - 10px);
+    height: 200px;
+  }
+
+
+  @media screen and (max-width:965px) {
+    .item2{
+      width: 100%;
+      display: flex;
     }
+    .item3{
+      width: 100%;
+      display: flex;
+    }
+    .item4{
+      width: 100%;
+      display: flex;
+    }
+  }
+ 
+
   
-  @media screen and (max-width: 500px) {
-    .yellow1 {
-      width: 100%;
-    }
-    .yellow2 {
-      width: 100%;
-    }
-    .yellow3 {
-      width: 100%;
-    }
-  }
+
+
+  
